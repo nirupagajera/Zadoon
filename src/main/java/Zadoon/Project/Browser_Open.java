@@ -31,8 +31,6 @@ public class Browser_Open {
     	
     	ExtentManager.getInstance();
     	
-    	System.out.println("123");
-
 	}
     
     @AfterSuite
