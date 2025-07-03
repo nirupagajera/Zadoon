@@ -30,6 +30,8 @@ public class Browser_Open {
     	System.out.println("Page title is: " + driver.getTitle());
     	
     	ExtentManager.getInstance();
+    	
+    	System.out.println("123");
 
 	}
     
