@@ -1,0 +1,4 @@
+﻿TestCase,email,password
+Check the login form with blank data.,,
+Check the login form with invalid data.,nirupa@krishaweb.com,erqeewqewq
+Check the login form with valid data.,kianstokes123@gmail.com,Kian@1234

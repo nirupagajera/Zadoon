@@ -1,0 +1,4 @@
+Testcase,Firstname,LastName,Username,Email,Password,Company
+Check the form with blank data.,,,,,,Test
+Check the form with invalid username and email id.,Nirupa,gajera,dack@,dackcross,Kian@1234,Test
+Check the form with valid data.,Nirupa,Gajera,tfytiuyiyoiuiouo,uytuytyut@gmail.com,Kian@1234,Test

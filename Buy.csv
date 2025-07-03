@@ -1,0 +1,4 @@
+Testcase,Category,Manufacturer,Model,Min year,Max year,Min Hour,Max Hour,Min budget,Max budget,Phone Number,Additional Notes
+Check the form with valid data.,Scissor Lift,JLG,40RTS,33,35,34,45,637,678,7686768767,uytutuyt
+Check the form with invalid data.,Lift Equipment,Harlo,HF456,14,12,8,2,180000,23432,2.32E+11,Test
+Check the form with blank data.,,,,,,,,,,,

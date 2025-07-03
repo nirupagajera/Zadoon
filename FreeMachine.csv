@@ -1,0 +1,3 @@
+﻿TestCase,firstname,lastname,phone,model,manufacturer,hours,message
+Check the Free machine evaluation form with valid data.,Nirupa,Gajera,2345678765,Test,Manu,3242,"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+Check the  Free machine evaluation form with invalid data.,Kian,stokes,23423424,test,data,!2,"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
