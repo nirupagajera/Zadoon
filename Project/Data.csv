@@ -1,0 +1,4 @@
+Test Scenario,subject,firstname,lastname,email,phone,message
+Check the form with blank data.,,,,,,
+Check the contact form with invalid data,Test,Nirupa,Gajera,nirupa@wee,32424234,test
+Check the contact form with valid data,Test,Nirupa123,Gajera,nirupa@krishaweb.com,7600320564,Data

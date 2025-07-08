@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Allure Report Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login Test(failed)">
+    <classes>
+      <class name="Zadoon.Project.Sell_Request">
+        <methods>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="Sell_Form"/>
+        </methods>
+      </class> <!-- Zadoon.Project.Sell_Request -->
+      <class name="Zadoon.Project.Contact">
+        <methods>
+          <include name="Contact_UsTest"/>
+        </methods>
+      </class> <!-- Zadoon.Project.Contact -->
+      <class name="Zadoon.Project.Buy_Request">
+        <methods>
+          <include name="buy_request"/>
+        </methods>
+      </class> <!-- Zadoon.Project.Buy_Request -->
+      <class name="Zadoon.Project.FreeMachineAfterLogin">
+        <methods>
+          <include name="machine"/>
+        </methods>
+      </class> <!-- Zadoon.Project.FreeMachineAfterLogin -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Allure Report Suite] -->

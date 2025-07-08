@@ -1,0 +1,4 @@
+Testcase,Category,Manufacturer,Model,Year,Hours,Serial_number,Country,State,City,File_Uploader,Drive_Url,Targeted Price,Description,Are_you_Open,Checkbox2
+Check the form with valid data.,Scissor Lift,JLG,40RTS,2004,24,qwqeq213,India,Gujarat,Ahmedabad,C:/Users/Admin/Downloads/Zadoon-service-transportation.png,https://docs.google.com/document/d/13_k7-odjbnpKPLwM8Pj_xfAN00VN6ktj1ByxwwDNPJg/edit?usp=sharing ,4243424,342424,auction,rent
+Check the form with invalid data.,Scissor Lift,JLG,40RTS,dwerqrq,234,ewrwereq,erwrw,werw,qweqweq,C:/Users/Admin/Downloads/Zadoon-service-transportation.png,https://docs.google.com/document/d/13_k7-odjbnpKPLwM8Pj_xfAN00VN6ktj1ByxwwDNPJg/edit?usp=sharing ,32424,Test,rent,
+Check the form with blank data.,,,,,,,,,,C:/Users/Admin/Downloads/Zadoon-service-transportation.png,,,,,
