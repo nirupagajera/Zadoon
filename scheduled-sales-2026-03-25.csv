@@ -1,0 +1,4 @@
+"Product Title",SKU,"Product Status","Regular Price","Sale Price","Sale Start Date","Sale End Date","Sale Status"
+Test,,publish,3567.00,2000.00,"2026-03-25 17:05:00","2026-03-25 23:59:00",scheduled
+"Divi Engine String Bag (Big Logo)",500,publish,300.00,200.00,"2026-03-24 11:55:00","2026-03-24 11:57:00",expired
+"Brand Buttons - Divi",278,publish,1000.00,500.00,"2026-03-25 11:56:00","2026-03-25 16:59:00",active
