@@ -1,0 +1,24 @@
+name: Run mabl Tests
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  mabl-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install mabl CLI
+        run: npm install -g @mablhq/mabl-cli
+
+      - name: Run mabl Tests
+        run: |
+          mabl auth activate-key $MABL_API_KEY
+          mabl tests run --from-plan-id qskFExdq4CtODVQDqogwjQ-p --exit-on-failure
+        env:
+          MABL_API_KEY: ${{ secrets.MABL_API_KEY }}
