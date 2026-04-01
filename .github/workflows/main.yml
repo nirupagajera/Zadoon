@@ -2,21 +2,19 @@ name: Run mabl Tests
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  pull_request:
 
 jobs:
-  mabl-test:
+  mabl-tests:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Install mabl CLI
-        run: npm install -g @mablhq/mabl-cli
-
-      - name: Run mabl Tests
-        run: echo "Key length: ${#MABL_API_KEY}"
+      - name: Run mabl tests
+        uses: mablhq/github-run-tests-action@v1
         env:
           MABL_API_KEY: ${{ secrets.MABL_API_KEY }}
+        with:
+          application-id: X1Gy84LsnWZfRRxgHdS0Rg
+          environment-id: q2Pb9Zqiglp9MKrNA9BzmA
