@@ -3,7 +3,7 @@ name: Run mabl Tests
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   mabl-test:
@@ -17,9 +17,10 @@ jobs:
         run: npm install -g @mablhq/mabl-cli
 
       - name: Run mabl Tests
+        shell: bash
         run: |
-          set -e
-          mabl auth activate-key "$MABL_API_KEY"
-          mabl tests run-legacy --from-plan-id qskFExdq4CtODVQDqogwjQ-p --exit-on-failure
+          echo "Starting mabl execution..."
+          mabl auth activate-key "${MABL_API_KEY}"
+          mabl tests run-legacy --from-plan-id "qskFExdq4CtODVQDqogwjQ-p" --exit-on-failure
         env:
           MABL_API_KEY: ${{ secrets.MABL_API_KEY }}
