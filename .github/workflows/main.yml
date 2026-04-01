@@ -19,6 +19,6 @@ jobs:
       - name: Run mabl Tests
         run: |
           mabl auth activate-key $MABL_API_KEY
-          mabl tests run --from-plan-id qskFExdq4CtODVQDqogwjQ-p --exit-on-failure
+          mabl tests run-legacy --from-plan-id qskFExdq4CtODVQDqogwjQ-p --exit-on-failure
         env:
           MABL_API_KEY: ${{ secrets.MABL_API_KEY }}
